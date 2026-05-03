@@ -86,7 +86,7 @@ export default function Hero() {
             fontSize: 'clamp(3rem, 10vw, 7rem)',
             lineHeight: 0.9,
             color: 'var(--c-text)',
-            textShadow: '4px 4px 0px var(--c-panel-border)',
+            textShadow: '4px 4px 0px var(--c-accent)',
             opacity: revealed ? 1 : 0,
             transform: revealed ? 'translateY(0)' : 'translateY(40px)',
             transition: 'all 800ms var(--ease-out-expo) 200ms',
