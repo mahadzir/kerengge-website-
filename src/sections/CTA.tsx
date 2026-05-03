@@ -38,7 +38,7 @@ export default function CTA() {
           style={{
             fontSize: 'clamp(2.5rem, 8vw, 5rem)',
             color: 'var(--c-text)',
-            textShadow: '3px 3px 0px var(--c-panel-border)',
+            textShadow: '3px 3px 0px var(--c-accent)',
             opacity: inView ? 1 : 0,
             transform: inView ? 'translateY(0)' : 'translateY(40px)',
             transition: 'all 600ms var(--ease-out-expo)',
